@@ -114,7 +114,6 @@ void PluginComponent::onFree(IComponent *component) {
         core_->getEventDispatcher().removeEventHandler(this);
         pawn_component_->getEventDispatcher().removeEventHandler(this);
     }
-
     pawn_component_ = nullptr;
   }
 }
